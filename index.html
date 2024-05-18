@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build and Publishing of Sites</title>
+    <link rel="shortcut icon" href="img/icon.svg" type="image/svg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">My Portfolio</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 class="reveal-effect-title" >Hi, I'm <span>Flamarion França</span></h1>
+            <div class="text-animate">
+                <h3>Fullstack Web Developer</h3>
+            </div>
+            <p class="reveal-effect-paragraph">
+                This site represents the portfolio of my main projects. 
+                There are mobile applications and websites. The intention is to present my programming skills
+                not only to companies but also to any enterprise, after all, technology is present in all areas. 
+                So if you want to put your business on the internet or have an idea that you want to turn into an application,
+                or need an application to meet yours and your company's demands,
+                thus increasing your production and sales, you can use the projects presented here as a basis to get an idea 
+                of ​​what I can do for you or your company.
+            </p>
+        </div>
+        <div class="home-footer">
+            <div class="btn-box">
+                <a class="btn" id="btn">Hire me</a>
+                <a href='https://api.whatsapp.com/send?phone=5571984407882'
+                    target='_blank' class="btn">Contact</a>
+            </div>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/gazuadev/"
+                    target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/GazuaDev8417"
+                    target="_blank"><i class='bx bxl-github' ></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="about-img">
+            <img src="img/profile.jpg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+        <div class="about-content">
+            <h3>Fullstack Web Developer</h3>
+            <p>
+                Today my focus is to use my knowledge together with the
+                internet tools to promote services, advertise companies and
+                their products and automate operational actions. Therefore, in addition to
+                build your website and put it online, I can also help with
+                dissemination, in the accounting of visits and events carried out by
+                visitors, in advertising their products and services and, mainly,
+                in the search for customers and transforming all of this into sales.
+                Everything was previously planned aiming at expectations and goals, and
+                properly budgeted.
+            </p>
+            <div class="btn-box btns">
+                <a 
+                    href='https://api.whatsapp.com/send?phone=5571984407882'
+                    target='_blank' 
+                    class="btn">Talk to me</a>
+            </div>
+        </div>
+    </section>
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class='matrixContainer'>
+            <div class="matrix" id='e-commerce'>
+                <a id='e-commerce-frontPage'>E-commerce (vanilla / frontend)
+                    <br>
+                    <img src='./img/abelhakaah.png' width="300"
+                    alt="imagem do app Ecommerce"/>
+                </a>
+                <div class="matrixTxt">
+                    E-commerce project for online clothing store.
+                    <br><br>
+                    <a id="e-commerce-frontRepo">
+                        Repository
+                    </a>
+                </div>
+            </div>
+
+            <div class="matrix" id='super-form'>
+                <a id="super-form-page">Quiz (vanilla / frontend)
+                    <br>
+                    <img src='./img/super_form.png' width="300"
+                        alt="imagem de projeto super formulário"/>
+                </a>
+                <div class="matrixTxt">
+                    Website with questions and answers about javascript.        
+                </div><br>
+                <a id="super-formRepo">Repository</a><br>
+            </div>
+
+            <div class="matrix" id='music-search'>
+                <a id="musicSearch">Music Search (vanilla / frontend)
+                    <br>
+                    <img src='./img/music_search.png' width="300" height='400' 
+                    alt="imagem do app labefood"/>
+                </a>
+                <div class="matrixTxt">
+                    Website to search for artists, their respective songs and albums.
+                    <br><br>
+                    <a id="musicSearch-repo">
+                        Repository
+                    </a>
+                </div>
+            </div>
+
+            <div class="matrix" id='nena-festas'>
+                <a id="nenaFestas">Parties and events website (vanilla / frontend)
+                    <br>
+                    <img src='./img/nena_festas.png' width="300" height='400' 
+                        alt="imagem do app nena-festas"/>
+                </a>
+                <div class="matrixTxt">
+                    Entrepreneur's website for organizing parties and events.
+                    <br><br>
+                    <a id="nenaFestas-repo">
+                        Repository
+                    </a>
+                </div>
+            </div>
+
+            <div class="matrix" id='otica-premium'>
+                <a id="oticaPremium">Optical website (vanilla / frontend)
+                    <br>
+                    <img src='./img/otica.png' width="300" height='400' 
+                        alt="imagem do app otica-premium"/>
+                </a>
+                <div class="matrixTxt">
+                    Website for optical stores with their products, payment methods and contact page.
+                    <br><br>
+                    <a id="oticaPremium-repo">
+                        Repository
+                    </a>
+                </div>
+            </div>
+
+            <div class="matrix" id='poo'>
+                <a id="pooWebsite">POO (vanilla / frontend)
+                    <br>
+                    <img src='./img/poo.png' class="poo-image" 
+                        alt="imagem do app POO"/>
+                </a>
+                <div class="matrixTxt">
+                    Website with a small demonstration of object-oriented programming. The project has
+                    a class in your script, with its attributes, methods and instantiation.
+                    <br><br>
+                    <a id="poo-repo">
+                        Repository
+                    </a>
+                </div>
+            </div>
+
+            <div class="matrix" id='dom'>
+                <a id="domWebsite">Manipulating the DOM (vanilla / frontend)
+                    <br>
+                    <img src='./img/dom.png' class="dom-image" 
+                        alt="imagem do app POO"/>
+                </a>
+                <div class="matrixTxt">
+                    Project whose html document was entirely implemented by javascript.
+                    <br><br>
+                    <a id="dom-repo">
+                        Repository
+                    </a>
+                </div>
+            </div>
+
+            <div class="matrix" id='job_store'>
+                <a id="job_store-web">Loja de Serviços (next / frontend)
+                    <br>
+                    <img src='./img/loja_de_servicos.png' class="job-store" 
+                        alt="imagem do app Loja de serviços"/>
+                </a>
+                <div class="matrixTxt">
+                    Application for registration and dissemination of various services<br><br>
+                    <a id="job_store-repo">
+                        Repository
+                    </a>
+                </div>
+            </div>
+
+            <div class="matrix" id='consuming_api'>
+                <a id="consuming_api-web">Consuming APIs (react / frontend)
+                    <br>
+                    <img src='./img/consuming_api.png' class="api-image" 
+                        alt="imagem do app POO"/>
+                </a>
+                <div class="matrixTxt">
+                    Projeto react que trabalha com informações das APIs dummyjson e randomuser.
+                    <br><br>
+                    <a id="consuming_api-repo">
+                        Repository
+                    </a>
+                </div>
+            </div>
+
+            <!-- Mobile apps  -->  
+            <div class="matrix" id='mensageiros_cristo'>
+                <a id="mensageiros_cristo_google-play">Mensageiros de Cristo (react-native)
+                    <br>
+                    <img src='./img/mensageiros_cristo.png' class="api-image" 
+                        alt="imagem do app Mensageiros de Cristo"/>
+                </a>
+                <div class="matrixTxt">
+                    Freelance project.<br>Application made for a church with the function of having control
+                    frequency of its participants.
+                    <!-- <br><br>
+                    <a id="mensageiros_cristo-repo">
+                        Repositório
+                    </a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Coding Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>CSS <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Javascript <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Typescript <span>60%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-column">
+                <h3 class="title">Professional Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Comunication <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Proactivity <span>75%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Creativity <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>Problem solving <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Flamarion França</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+<!-- <script src="reveal.js"></script> -->
+</html>
