@@ -91,6 +91,12 @@ document.getElementById('consuming_api-repo')
 document.getElementById('mensageiros_cristo_google-play')
 .addEventListener('click', ()=> redirection('https://play.google.com/store/apps/details?id=com.gazua300.mensageiros_de_cristo_mobile', 'mensageiros_cristo'))
 
+//LOJA_DE_SERVICOS_MOBILE
+document.getElementById('loja_de_servicos_mobile_google-play')
+.addEventListener('click', ()=> redirection('https://play.google.com/store/apps/details?id=com.gazua300.loja_de_servicosmobile', 'loja_de_servicos_mobile'))
+document.getElementById('loja_de_servicos_mobile-repo')
+.addEventListener('click', ()=> redirection('https://github.com/GazuaDev8417/loja_de_servicos-mobile', 'loja_de_servicos_mobile'))
+
 
 /* MENU ICON */
 let menuIcon = document.querySelector('#menu-icon')
